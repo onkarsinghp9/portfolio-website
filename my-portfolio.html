@@ -1,10 +1,9 @@
 <!DOCTYPE html>
 <html>
     <head><meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>My portfolio website</title>
-        <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="styles.css ">
     </head>
     <body onload="loader()" onscroll="getScrollPosition()">
 
@@ -91,7 +90,7 @@
     
        <div class="about_me" id="about_me">
        <font style="color:green;font-size:3em; box-shadow:inset 0px 0px 10px #fff; border:2px solid red; border-radius:0px 0px 10px 10px"> About me </font>
-           <div id=myPhoto><img src="https://api.sololearn.com/Uploads/Avatars/26842729.jpg"><div></div></div>
+           <div id=myPhoto><img src="https://scontent-ord5-1.cdninstagram.com/v/t51.2885-19/323497321_1314676419386682_4243730963975664878_n.jpg"><div></div></div>
            <div class="a"><h2>Tap me</h2>
               <h5>
                NAME:ONKAR SINGH<br><br>
@@ -139,61 +138,6 @@
 
 
 
-
-
-
-        
-        
-        
-        
-        <div id="game">
-        <button id="restart">pause</button>
-        <button id="point" onclick="play()">play</button>
-          <canvas id="mycanvas">canvas not supported!</canvas>
-            <div id="ball"></div>This game is under-construction...
-        <div id="bar" ontouchmove="position(event)""></div>
-            <div id="testv"></div>
-            <div id="testh"></div>
-            
-            
-    
-        </div>
-        <script>
-         function obstacles(x,y,l,b){
-            
-            var ctx=document.getElementById('mycanvas');
-            ctx.height=window.innerHeight-30;
-            ctx.width=window.innerWidth-19;
-            c=ctx.getContext("2d");
-            
-                for(j=0;j<10;j++){
-                
-                for(i=0;i<8;i++){
-                  randomblock=Math.floor(Math.random()*4);
-                  color="rgb("+Math.floor(Math.random()*200)+","+Math.floor(Math.random()*255)+","+Math.floor(Math.random()*255)+")";
-
-                   if(randomblock==0){
-                                      c.strokeRect(x,y,l,b);
-                                      c.fillStyle='black';
-                                      c.fillRect(x+5,y+5,l,b);
-                                      c.fillStyle=color;
-                                      c.fillRect(x,y,l,b);
-                                      
-                                      
-
-                            
-                                      }
-                x=x+l;
-                
-                                }
-                  y=y+b;
-                  x=0;
-                
-                                 }
-                        
-                                    }
-         
-         obstacles(0,30,50,20);</script>
          
     
 
@@ -211,11 +155,11 @@
     New version would be made available as soon as possible.<br>No images or videos are used in this website.<br>This website contains infinite themes.<br>
     The theme changes automatically after every 20 seconds.<br>
     Theme can be changed manually by clicking on the 'change theme' button present in the options menu.<br>Current theme is=<span id="tname">linear-gradient(45deg,#fbda61,#ff5acd)</span>
-<br> <br><br>The game given above is under-construction.<br>Click on the play button to play.<br>The bar in the game is movable and can be moved by swiping it...</div>
+
        <div id="bcontainer">
            
        <div id="contact" class="contact">Contact</div><hr><br>
-      <div class="insta"><a href="www.instagram.com/its_onkar_parmar" >Insta-<br>gram</a></div><br>
+      <div class="insta"><a href="https://www.instagram.com/its_onkar_parmar/" >Insta-<br>gram</a></div><br>
       <div class="call">call</div>
        </div>
        
