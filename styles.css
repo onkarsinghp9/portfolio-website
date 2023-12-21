@@ -423,7 +423,7 @@ h1{
     height:90vh;
     width:92vw;
     z-index:40;
- 
+    overflow:hidden;
     background-image:linear-gradient(#ffff00,#00ffff);
     color:#ff5500;
     box-shadow:10px 10px 10px #000,
