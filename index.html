@@ -240,7 +240,7 @@ function getScrollPosition(){
     if(sp<3000){
       document.addEventListener('mousemove', function(e) {
       var yPos = e.clientY;
-        yPos=yPos+600;
+        yPos=yPos-600;
       let dorPos = 'translate3d(0px,'+yPos+'px,0) rotateZ(15deg) scale3d(0.5,0.5,0.5)';
       document.getElementById('doraemon').style.transform=dorPos;
       console.log(dorPos);})
