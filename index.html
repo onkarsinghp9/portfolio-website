@@ -126,11 +126,11 @@
               <div class="base"></div>
               <div class="basetwo"></div>
                 <div class="cube">
-                  <div class="face one">My ambition is to convert websites from something like a maths book, to something like a drawing book.</div>
-                  <div class="face two">Programming is art and web page is canvas.</div>
-                  <div class="face three">I am a learner and know the basics only</div>
-                  <div class="face four">This website would be updated when I would master javascript.</div>
-                  <div class="face five">Made with HTML and CSS only (no images or videos are inserted)</div>
+                  <div class="face one"></div>
+                  <div class="face two"></div>
+                  <div class="face three"></div>
+                  <div class="face four"></div>
+                  <div class="face five"></div>
                   <div class="face six"></div>
                 </div>
                 
@@ -238,7 +238,7 @@ function getScrollPosition(){
 
 
     if(sp<2500){
-      document.addEventListener('mousemove', function() {
+      document.addEventListener('mousemove', function(e) {
       var yPos = e.clientY;
         yPos=yPos-600;
       let dorPos = 'translate3d(0px,'+yPos+'px,0) rotateZ(15deg) scale3d(0.5,0.5,0.5)';
