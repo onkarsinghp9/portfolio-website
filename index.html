@@ -233,6 +233,11 @@ dar=setInterval(dark,20000);
 
 function getScrollPosition(){
     sp=window.scrollY;
+    document.addEventListener('mousemove', function(e) {
+    var yPos = e.clientY;
+    console.log('Y: ' + yPos);
+});
+
     if(sp>50 && sp<500){
       document.getElementById('doraemon').style.transform="rotateZ(15deg) scale3d(0.5,0.5,0.5) translate3d(-200px,-500px,0)";
     }
