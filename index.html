@@ -236,11 +236,12 @@ function getScrollPosition(){
     document.addEventListener('mousemove', function(e) {
     var yPos = e.clientY;
     let dorPos = 'rotateZ(15deg) scale3d(0.5,0.5,0.5) translate3d(-200px,-'+yPos+'px,0)';
-    console.log('Y: ' + dorPos);
+
 });
 
     if(sp>0 && sp<500){
       document.getElementById('doraemon').style.transform=dorPos;
+      console.log('Y: ' + dorPos);
     }
     else if(sp>800 && sp<1800){
       document.getElementById('doraemon').style.transform="rotateZ(15deg) scale3d(0.5,0.5,0.5) translate3d(-250px,-700px,0)";
