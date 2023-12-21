@@ -237,8 +237,8 @@ function getScrollPosition(){
 
 
 
-    if(sp<3000){
-      document.addEventListener('mousemove', function(e) {
+    if(sp<2500){
+      document.addEventListener('mousemove', function() {
       var yPos = e.clientY;
         yPos=yPos-600;
       let dorPos = 'translate3d(0px,'+yPos+'px,0) rotateZ(15deg) scale3d(0.5,0.5,0.5)';
