@@ -710,7 +710,7 @@ h1{
     width:95vw;
     z-index:40;
     border:1px dotted black;
-    background-image:radial-gradient(#ff6600,#ffff00);
+    background-image:radial-gradient(#ff0066,#ff00ff);
     box-shadow: 10px 10px 10px #000;
     transform:rotateX(-20deg);
     transform-style:preserve-3d;
