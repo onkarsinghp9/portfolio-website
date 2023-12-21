@@ -242,7 +242,7 @@ function getScrollPosition(){
       var yPos = e.clientY;
       let dorPos = 'rotateZ(15deg) scale3d(0.5,0.5,0.5) translate3d(-200px,-'+yPos+'px,0)';
       document.getElementById('doraemon').style.transform=dorPos;
-      console.log('Y: ' + dorPos);
+      console.log(dorPos);})
     }
     else if(sp>800 && sp<1800){
       document.getElementById('doraemon').style.transform="rotateZ(15deg) scale3d(0.5,0.5,0.5) translate3d(-250px,-700px,0)";
