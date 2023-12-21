@@ -135,6 +135,10 @@
                 </div>
                 
               </div>
+              <div id="Client"><font style="color:green;font-size:3em; box-shadow:inset 0px 0px 10px #fff; border:2px solid red; border-radius:0px 0px 10px 10px"> My views </font>
+                </div>
+                
+              </div>
 
 
 
@@ -243,12 +247,12 @@ function getScrollPosition(){
         yPos=yPos-600;
       let dorPos = 'translate3d(0px,'+yPos+'px,0) rotateZ(15deg) scale3d(0.5,0.5,0.5)';
       document.getElementById('doraemon').style.transform=dorPos;
-      console.log(dorPos);})
+      })
     }
       else if(sp>3000){
           document.getElementById('doraemon').style.transform="rotateZ(0deg) scale3d(0.5,0.5,0.5) translate3d(120vw,100px,0)";
     }
-    console.log(sp);
+    
 }
 getScrollPosition();
 scroll=setInterval(getScrollPosition,2000);
