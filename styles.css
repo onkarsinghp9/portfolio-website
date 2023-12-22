@@ -4,10 +4,11 @@
     z-index:0;
 }
 #bg {
-    height:100vh;
+    height:100dvh;
     background:linear-gradient(45deg, #fbda61, #ff5acd);
     position:fixed;
     width:100vw;
+    width:100dvw;
     transition-duration:.4s;
     
 }
