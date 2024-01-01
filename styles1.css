@@ -404,5 +404,6 @@ li {
 
 /* ... Your existing styles ... */
 
-
+position: relative; /* Set to relative */
+    left: 25%; /* Adjust the value as needed */
 /* ... Your existing styles ... */
