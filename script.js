@@ -1,3 +1,9 @@
+document.addEventListener("DOMContentLoaded", function () {
+    // Hide the loader when the content is fully loaded
+    document.querySelector('.loader-wrapper').style.display = 'none';
+});
+
+
 function toggleMenu() {
    const menu = document.querySelector('.menu');
    const menuBtn = document.querySelector('.menu-btn');
