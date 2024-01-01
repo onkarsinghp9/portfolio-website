@@ -402,8 +402,47 @@ li {
    }
 }
 
-/* ... Your existing styles ... */
+/* New styles for a timeline-based experience section */
 
-position: relative; /* Set to relative */
-    left: 25%; /* Adjust the value as needed */
-/* ... Your existing styles ... */
+
+.experience-entry {
+    position: relative;
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: #27ae60;
+    color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.time {
+    position: absolute;
+    top: 50%;
+    left: -50px;
+    transform: translateY(-50%);
+    background-color: #fff;
+    color: #27ae60;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.position {
+    font-size: 1.5em;
+    font-weight: bold;
+    position: relative; /* Set to relative */
+    left: 28%; /* Adjust the value as needed */
+}
+
+.company {
+    font-style: italic;
+    position: relative; /* Set to relative */
+    left: 28%; /* Adjust the value as needed */
+}
+
+.year {
+    font-weight: bold;
+    position: relative; /* Set to relative */
+    left: 28%; /* Adjust the value as needed */
+}
+
