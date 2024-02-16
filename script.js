@@ -184,3 +184,7 @@ window.addEventListener('scroll', handleScroll);
 
 // ... Your existing code ...
 
+AWS_cert(){
+     
+      window.open('AWS_cert.pdf', '_blank');
+    }
