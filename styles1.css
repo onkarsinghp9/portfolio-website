@@ -318,17 +318,17 @@ li {
    color: #333; /* Adjust text color to make it visible */
 }
 
+.section .certification:hover {
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.5);
+}
+
+
 .section .certification img {
    width: 50px; /* Adjust the size of the logo */
    margin-bottom: 10px;
 }
 
-/* ... Your existing styles ... */
 
-/* ... Your existing styles ... */
-
-
-/* ... Your existing styles ... */
 
 .section #skills {
    background-color: #f9f9f9;
