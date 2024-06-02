@@ -445,8 +445,3 @@ li {
     position: relative; /* Set to relative */
     left: 28%; /* Adjust the value as needed */
 }
-
-.contact-container {
-      display: flex;
-      align-items: center;
-}
