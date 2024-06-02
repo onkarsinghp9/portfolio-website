@@ -446,3 +446,11 @@ li {
     left: 28%; /* Adjust the value as needed */
 }
 
+.contact-container {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+}
+.contact-left, .contact-right {
+      flex: 1;
+}
