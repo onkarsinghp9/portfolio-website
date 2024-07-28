@@ -181,3 +181,24 @@ function startTypingAnimation() {
 
 // Listen for the scroll event and trigger the handleScroll function
 window.addEventListener('scroll', handleScroll);
+
+
+async function setBackgroundImage() {
+    try {
+        const response = await fetch('https://script.google.com/macros/s/AKfycbxDbg4sGHoyn7lsnrdJw1UMBH7R7S0GYg4OlRLnlHO5FjpIYtwu0CcE4J1jootWAVhG/exec'); // Replace with your Google Script URL
+        const imageUrl = await response.text();
+
+        const img = new Image();
+        img.src = imageUrl;
+
+        img.onload = function() {
+            const backgroundDiv = document.getElementById('background');
+            backgroundDiv.style.backgroundImage = `url(${imageUrl})`;
+            backgroundDiv.style.opacity = 1; // Trigger the fade-in effect
+        };
+    } catch (error) {
+        console.error('Error fetching the image:', error);
+    }
+}
+
+setBackgroundImage();
