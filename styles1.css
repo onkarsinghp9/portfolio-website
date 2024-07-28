@@ -6,6 +6,20 @@ body {
    color: #fff; /* Text color */
 }
 
+#background {
+   position: fixed; /* Fixed position to cover the whole viewport */
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+   opacity: 0;
+   transition: opacity 2s ease-in-out; /* Fade-in effect */
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position: center;
+   z-index: -1; /* Ensures the background is behind other content */
+}
+
 .loader-wrapper {
     position: fixed;
     top: 0;
