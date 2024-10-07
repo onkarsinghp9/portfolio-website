@@ -2,8 +2,8 @@ body {
    font-family: 'Arial', sans-serif;
    margin: 0;
    padding: 0;
-   background-color: #282c35;
-   color: #fff;
+   background-color: #282c35; /* Dark background color */
+   color: #fff; /* Text color */
 }
 
 #background {
@@ -42,7 +42,6 @@ body {
     animation: spin 1s linear infinite;
 }
 
-
 @keyframes spin {
     0% { transform: rotate(0deg); }
     100% { transform: rotate(360deg); }
@@ -73,6 +72,7 @@ body {
     0% { transform: rotate(0deg); }
     100% { transform: rotate(360deg); }
 }
+
 
 header {
    background-color: #1f2229; /* Slightly darker header color */
@@ -228,7 +228,7 @@ section {
 
 .carousel img {
    
-   width: calc(100% - 50vw); /* Adjust the width and gap */
+   width: calc(100% - 10vw); /* Adjust the width and gap */
    box-shadow: 10px 10px 20px rgba(255, 255, 255, 0.8);
 }
 /* ... Your existing styles ... */
