@@ -34,7 +34,7 @@ let currentIndex = 0;
 
 function rotateImages() {
    currentIndex = (currentIndex + 1) % carousel.children.length;
-   const transformValue = `translateX(-${currentIndex * 100}%)`;
+   const transformValue = `translateX(-${currentIndex * 50}%)`;
    carousel.style.transition = 'transform 1s ease-in-out';
    carousel.style.transform = transformValue;
 
