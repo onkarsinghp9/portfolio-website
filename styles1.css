@@ -463,7 +463,7 @@ li {
 /*comment section*/
 .contact-container {
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start;
     align-items: flex-start;
     gap: 20px;
     margin-top: 20px;
@@ -479,6 +479,16 @@ li {
         flex: 1 1 300px;
         margin-top: 20px;
     }
+
+.linkedin-container {
+    flex-shrink: 0;  /* Prevent shrinking, but allow form to take space */
+    max-width: 150px; /* Control width of LinkedIn badge container */
+}
+
+/* Handling layout if LinkedIn badge is missing */
+.linkedin-container:empty {
+    display: none;  /* If LinkedIn badge doesn't load, hide the container */
+}
 
     .form-group {
         margin-bottom: 15px;
